@@ -3,29 +3,59 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D09F52224E8BC6A00D18C82 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D09F52124E8BC6A00D18C82 /* GoogleService-Info.plist */; };
+		3D09F52424E8E90300D18C82 /* intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D09F52324E8E90300D18C82 /* intro.swift */; };
+		3D4EDE8624F36A0000C00B70 /* logCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4EDE8424F36A0000C00B70 /* logCell.swift */; };
+		3D4EDE8724F36A0000C00B70 /* logCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D4EDE8524F36A0000C00B70 /* logCell.xib */; };
+		3D4EDE8924F386EE00C00B70 /* logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4EDE8824F386EE00C00B70 /* logging.swift */; };
+		3D4EDE8B24F3B1F600C00B70 /* Logs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4EDE8A24F3B1F600C00B70 /* Logs.swift */; };
+		3D55FBC824E913C300EA3C60 /* register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D55FBC724E913C300EA3C60 /* register.swift */; };
+		3D55FBCA24E9140C00EA3C60 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D55FBC924E9140C00EA3C60 /* Login.swift */; };
 		3D59542A24E45E6B009BA5B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D59542924E45E6B009BA5B0 /* AppDelegate.swift */; };
 		3D59542C24E45E6B009BA5B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D59542B24E45E6B009BA5B0 /* SceneDelegate.swift */; };
-		3D59542E24E45E6B009BA5B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D59542D24E45E6B009BA5B0 /* ViewController.swift */; };
+		3D59542E24E45E6B009BA5B0 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D59542D24E45E6B009BA5B0 /* HomeController.swift */; };
 		3D59543124E45E6B009BA5B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D59542F24E45E6B009BA5B0 /* Main.storyboard */; };
 		3D59543424E45E6B009BA5B0 /* workoutApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D59543224E45E6B009BA5B0 /* workoutApp.xcdatamodeld */; };
 		3D59543624E45E6F009BA5B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D59543524E45E6F009BA5B0 /* Assets.xcassets */; };
 		3D59543924E45E6F009BA5B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D59543724E45E6F009BA5B0 /* LaunchScreen.storyboard */; };
+		3D59544424E4F406009BA5B0 /* weatherMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D59544324E4F406009BA5B0 /* weatherMan.swift */; };
+		3D59544624E4FAEF009BA5B0 /* weatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D59544524E4FAEF009BA5B0 /* weatherData.swift */; };
+		3D59544824E4FB8E009BA5B0 /* weatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D59544724E4FB8E009BA5B0 /* weatherModel.swift */; };
+		3D59544A24E510B9009BA5B0 /* distanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D59544924E510B9009BA5B0 /* distanceController.swift */; };
+		3D59544C24E53366009BA5B0 /* tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D59544B24E53366009BA5B0 /* tracker.swift */; };
+		6A8EF0A8CFF66DD1EAFD6066 /* libPods-workoutApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6229013EA1797E55EA84198 /* libPods-workoutApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D09F52124E8BC6A00D18C82 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3D09F52324E8E90300D18C82 /* intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = intro.swift; sourceTree = "<group>"; };
+		3D4EDE8424F36A0000C00B70 /* logCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logCell.swift; sourceTree = "<group>"; };
+		3D4EDE8524F36A0000C00B70 /* logCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = logCell.xib; sourceTree = "<group>"; };
+		3D4EDE8824F386EE00C00B70 /* logging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logging.swift; sourceTree = "<group>"; };
+		3D4EDE8A24F3B1F600C00B70 /* Logs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logs.swift; sourceTree = "<group>"; };
+		3D55FBC724E913C300EA3C60 /* register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = register.swift; sourceTree = "<group>"; };
+		3D55FBC924E9140C00EA3C60 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		3D59542624E45E6B009BA5B0 /* workoutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = workoutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D59542924E45E6B009BA5B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D59542B24E45E6B009BA5B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3D59542D24E45E6B009BA5B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D59542D24E45E6B009BA5B0 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		3D59543024E45E6B009BA5B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D59543324E45E6B009BA5B0 /* workoutApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = workoutApp.xcdatamodel; sourceTree = "<group>"; };
 		3D59543524E45E6F009BA5B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D59543824E45E6F009BA5B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D59543A24E45E6F009BA5B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D59544324E4F406009BA5B0 /* weatherMan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherMan.swift; sourceTree = "<group>"; };
+		3D59544524E4FAEF009BA5B0 /* weatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherData.swift; sourceTree = "<group>"; };
+		3D59544724E4FB8E009BA5B0 /* weatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherModel.swift; sourceTree = "<group>"; };
+		3D59544924E510B9009BA5B0 /* distanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = distanceController.swift; sourceTree = "<group>"; };
+		3D59544B24E53366009BA5B0 /* tracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tracker.swift; sourceTree = "<group>"; };
+		8E7B25FA0BB30ABC318D6588 /* Pods-workoutApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-workoutApp.release.xcconfig"; path = "Target Support Files/Pods-workoutApp/Pods-workoutApp.release.xcconfig"; sourceTree = "<group>"; };
+		BB042F0CFAD13E3B9D049CFF /* Pods-workoutApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-workoutApp.debug.xcconfig"; path = "Target Support Files/Pods-workoutApp/Pods-workoutApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D6229013EA1797E55EA84198 /* libPods-workoutApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-workoutApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +63,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A8EF0A8CFF66DD1EAFD6066 /* libPods-workoutApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		059D450C8D97EBCE24CD9808 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB042F0CFAD13E3B9D049CFF /* Pods-workoutApp.debug.xcconfig */,
+				8E7B25FA0BB30ABC318D6588 /* Pods-workoutApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3A26EF83F71485F7492F96DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6229013EA1797E55EA84198 /* libPods-workoutApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3D59541D24E45E6B009BA5B0 = {
 			isa = PBXGroup;
 			children = (
 				3D59542824E45E6B009BA5B0 /* workoutApp */,
 				3D59542724E45E6B009BA5B0 /* Products */,
+				059D450C8D97EBCE24CD9808 /* Pods */,
+				3A26EF83F71485F7492F96DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,14 +110,51 @@
 			children = (
 				3D59542924E45E6B009BA5B0 /* AppDelegate.swift */,
 				3D59542B24E45E6B009BA5B0 /* SceneDelegate.swift */,
-				3D59542D24E45E6B009BA5B0 /* ViewController.swift */,
-				3D59542F24E45E6B009BA5B0 /* Main.storyboard */,
+				3D59544124E4F2DC009BA5B0 /* Model */,
+				3D59544024E4F2CD009BA5B0 /* View */,
+				3D59544224E4F2F7009BA5B0 /* Controller */,
 				3D59543524E45E6F009BA5B0 /* Assets.xcassets */,
 				3D59543724E45E6F009BA5B0 /* LaunchScreen.storyboard */,
 				3D59543A24E45E6F009BA5B0 /* Info.plist */,
 				3D59543224E45E6B009BA5B0 /* workoutApp.xcdatamodeld */,
+				3D09F52124E8BC6A00D18C82 /* GoogleService-Info.plist */,
 			);
 			path = workoutApp;
+			sourceTree = "<group>";
+		};
+		3D59544024E4F2CD009BA5B0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D59542F24E45E6B009BA5B0 /* Main.storyboard */,
+				3D4EDE8424F36A0000C00B70 /* logCell.swift */,
+				3D4EDE8524F36A0000C00B70 /* logCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3D59544124E4F2DC009BA5B0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D59544324E4F406009BA5B0 /* weatherMan.swift */,
+				3D59544524E4FAEF009BA5B0 /* weatherData.swift */,
+				3D59544724E4FB8E009BA5B0 /* weatherModel.swift */,
+				3D4EDE8A24F3B1F600C00B70 /* Logs.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3D59544224E4F2F7009BA5B0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3D59542D24E45E6B009BA5B0 /* HomeController.swift */,
+				3D59544924E510B9009BA5B0 /* distanceController.swift */,
+				3D59544B24E53366009BA5B0 /* tracker.swift */,
+				3D09F52324E8E90300D18C82 /* intro.swift */,
+				3D55FBC724E913C300EA3C60 /* register.swift */,
+				3D55FBC924E9140C00EA3C60 /* Login.swift */,
+				3D4EDE8824F386EE00C00B70 /* logging.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +164,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D59543D24E45E6F009BA5B0 /* Build configuration list for PBXNativeTarget "workoutApp" */;
 			buildPhases = (
+				791C4D909E0F9398929EF83A /* [CP] Check Pods Manifest.lock */,
 				3D59542224E45E6B009BA5B0 /* Sources */,
 				3D59542324E45E6B009BA5B0 /* Frameworks */,
 				3D59542424E45E6B009BA5B0 /* Resources */,
+				EA166E149A7D86A619CEE119 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,21 +218,76 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D59543924E45E6F009BA5B0 /* LaunchScreen.storyboard in Resources */,
+				3D4EDE8724F36A0000C00B70 /* logCell.xib in Resources */,
 				3D59543624E45E6F009BA5B0 /* Assets.xcassets in Resources */,
 				3D59543124E45E6B009BA5B0 /* Main.storyboard in Resources */,
+				3D09F52224E8BC6A00D18C82 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		791C4D909E0F9398929EF83A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-workoutApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA166E149A7D86A619CEE119 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-workoutApp/Pods-workoutApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-workoutApp/Pods-workoutApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-workoutApp/Pods-workoutApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3D59542224E45E6B009BA5B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D59542E24E45E6B009BA5B0 /* ViewController.swift in Sources */,
+				3D59542E24E45E6B009BA5B0 /* HomeController.swift in Sources */,
+				3D4EDE8B24F3B1F600C00B70 /* Logs.swift in Sources */,
 				3D59542A24E45E6B009BA5B0 /* AppDelegate.swift in Sources */,
+				3D4EDE8624F36A0000C00B70 /* logCell.swift in Sources */,
+				3D59544A24E510B9009BA5B0 /* distanceController.swift in Sources */,
+				3D55FBCA24E9140C00EA3C60 /* Login.swift in Sources */,
+				3D55FBC824E913C300EA3C60 /* register.swift in Sources */,
+				3D59544624E4FAEF009BA5B0 /* weatherData.swift in Sources */,
+				3D09F52424E8E90300D18C82 /* intro.swift in Sources */,
 				3D59542C24E45E6B009BA5B0 /* SceneDelegate.swift in Sources */,
+				3D4EDE8924F386EE00C00B70 /* logging.swift in Sources */,
+				3D59544C24E53366009BA5B0 /* tracker.swift in Sources */,
+				3D59544424E4F406009BA5B0 /* weatherMan.swift in Sources */,
+				3D59544824E4FB8E009BA5B0 /* weatherModel.swift in Sources */,
 				3D59543424E45E6B009BA5B0 /* workoutApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +430,7 @@
 		};
 		3D59543E24E45E6F009BA5B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB042F0CFAD13E3B9D049CFF /* Pods-workoutApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +449,7 @@
 		};
 		3D59543F24E45E6F009BA5B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E7B25FA0BB30ABC318D6588 /* Pods-workoutApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
